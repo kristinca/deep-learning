@@ -17,7 +17,7 @@ class Numbers:
         self.y_test = y_test
 
     def cnn_number_classification(self):
-        """ Classification of handwritten digits from the MNIST dataset via a simple convolutional neural network """
+        """ Classification of handwritten digits from the MNIST dataset with a simple convolutional neural network """
 
         cnn = models.Sequential([
                 layers.Conv2D(filters=20, kernel_size=(3, 3), activation='relu', input_shape=(28, 28, 1)),

@@ -26,7 +26,7 @@ class Imgs:
         plt.show()
 
     def ann_imgs_classification(self):
-        """ Classification of images from the CIFAR10 dataset via an artificial neural network """
+        """ Classification of images from the CIFAR10 dataset with an artificial neural network """
 
         # normalize the training data
         self.X_train = self.X_train / 255.0
